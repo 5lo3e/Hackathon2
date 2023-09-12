@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ img {
+    max-width: 150px;
+    max-height: 60px;
+
+}
+
+#imgBlock {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+th,td {
+    border: 1px solid rgb(116, 114, 114);
+    padding: 30px;
+}
+table{
+    border-spacing: 0px ;
+    margin-left: 100px;
+}
+
+#detailsCard {
+    display: flex;
+}
+
+header {
+    padding: 20px;
+    margin-left: 100px;
+    max-width: 800px;
+}
+
+header>div {
+    padding: 20px 0;
+}
+
+#inputCardNumber {
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: rgb(166, 165, 165);
+}
+
+#numberCard>p {
+    padding-bottom: 20px;
+}
+#numberCard{
+    padding-bottom: 0px;
+}
+
+#detailsCard div>p {
+    padding-bottom: 25px;
+}
+
+#detailsCard div:last-child {
+    padding-left: 30px;
+}
+
+#inputDate {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(159, 159, 159);
+    width: 180px;
+}
+
+#inputCVV {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(166, 165, 165);
+    width: 180px;
+}
+
+#addBtn {
+    background-color: rgb(84, 84, 230);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    
+}

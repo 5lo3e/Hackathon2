@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Select Card</h1>
+        <div id="imgBlock">
+            <img src="./image/Mastercard.jpg" alt="" onclick="clickImg(0)">
+            <img src="./image/PayPal.jpg" alt=""onclick="clickImg(1)" >
+            <img src="./image/Visa.jpg" alt="" onclick="clickImg(2)" >
+            <img src="./image/AMERICAN EXPRESS.jpg" alt="" onclick="clickImg(3)" >
+            <img src="./image/DISCOVER.jpg" alt="" onclick="clickImg(4)" >
+        </div>
+        <div id="numberCard">
+            <p>Card Number</p>
+            <input type="text"  id="inputCardNumber">
+        </div>
+        <div id="detailsCard">
+            <div>
+                <p>Expiry Date </p>
+                <input type="date" id="inputDate">
+            </div>
+            <div>
+                <p>CVC/CVV</p>
+                <input type="password" id="inputCVV">
+            </div>
+        </div>
+        <button onclick="add()" id="addBtn">Save</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Card Img</th>
+                    <th>Card Number</th>
+                    <th>Expiry Date</th>
+                    <th>CVV</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="dataCard">
+                <tr>
+               
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
